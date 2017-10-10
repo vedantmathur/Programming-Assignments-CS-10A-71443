@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		472CC47E1F771A250084C162 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472CC47D1F771A250084C162 /* main.cpp */; };
+		472CC47E1F771A250084C162 /* ASSN1-Schedule of Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472CC47D1F771A250084C162 /* ASSN1-Schedule of Classes.cpp */; };
+		4779564F1F8C996A0066BEEC /* ASSN2-Craps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4779564E1F8C996A0066BEEC /* ASSN2-Craps.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		472CC47A1F771A250084C162 /* ASSN2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ASSN2; sourceTree = BUILT_PRODUCTS_DIR; };
-		472CC47D1F771A250084C162 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		472CC47D1F771A250084C162 /* ASSN1-Schedule of Classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ASSN1-Schedule of Classes.cpp"; sourceTree = "<group>"; };
+		4779564E1F8C996A0066BEEC /* ASSN2-Craps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ASSN2-Craps.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,11 @@
 		472CC47C1F771A250084C162 /* ASSN2 */ = {
 			isa = PBXGroup;
 			children = (
-				472CC47D1F771A250084C162 /* main.cpp */,
+				4779564E1F8C996A0066BEEC /* ASSN2-Craps.cpp */,
+				472CC47D1F771A250084C162 /* ASSN1-Schedule of Classes.cpp */,
 			);
-			path = ASSN2;
+			name = ASSN2;
+			path = ASSN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 472CC4751F771A250084C162 /* Build configuration list for PBXProject "ASSN2" */;
+			buildConfigurationList = 472CC4751F771A250084C162 /* Build configuration list for PBXProject "ASSN" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472CC47E1F771A250084C162 /* main.cpp in Sources */,
+				472CC47E1F771A250084C162 /* ASSN1-Schedule of Classes.cpp in Sources */,
+				4779564F1F8C996A0066BEEC /* ASSN2-Craps.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +240,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		472CC4751F771A250084C162 /* Build configuration list for PBXProject "ASSN2" */ = {
+		472CC4751F771A250084C162 /* Build configuration list for PBXProject "ASSN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				472CC47F1F771A250084C162 /* Debug */,
@@ -251,6 +256,7 @@
 				472CC4831F771A250084C162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
