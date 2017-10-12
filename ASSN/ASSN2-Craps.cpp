@@ -133,10 +133,6 @@ int main()
             
             // Display the final count so far
             cout << win << " wins, " << loss << " losses. " << endl;
-            if(win + loss > PERCENTAGE_MIN)
-            {
-                cout << "Win rate: "<< (((win)/(win+loss)) * PERCENT) << "%" << endl;
-            }
             break; // End the game, go back to main menu really.
         }
         
