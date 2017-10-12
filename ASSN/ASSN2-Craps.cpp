@@ -15,12 +15,12 @@ const int MAX_VAL = 6;
 const int CUTOFF_NUM = 7;
 const int PERCENT = 100;
 const int PERCENTAGE_MIN = 0;
-const int PRECISION = 2;
+const int PRECISION = 0;
 
 int main()
 {
     
-    cout << fixed << setprecision(PRECISION); // Set precision initially so that decimal remains at 2 places.
+    cout << fixed << setprecision(PRECISION); // Set precision initially so that decimal remains at 0 places, but is modifiable later.
     srand(static_cast<uint>(time(NULL))); // Seed the random to ensure true randomness
     float win = INTITIALIZATION, loss = INTITIALIZATION;
     bool play = false;
