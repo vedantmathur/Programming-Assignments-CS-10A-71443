@@ -35,6 +35,11 @@ int main()
 	if (!accountTerms || !outputFile)
 	{
 		cout << "Unable to open file" << endl;
+
+		// Close files, we don't want them to be left open.
+		accountTerms.close();
+		outputFile.close();
+
 		return EXIT_FAILURE;
 	}
 
